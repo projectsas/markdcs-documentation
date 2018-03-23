@@ -37,7 +37,7 @@ A main module does not expose its  `def` declarations, as it must not be used by
 
 Library modules do not have a main declaration \(mandatorily\). They expose their  `def` declarations, which can be used in other modules. There can be unlimited library modules.
 
-### Syntax
+### Module syntax
 
 The  `module`  declaration must be the first declaration in a  `mkl` file.  
 The syntax for the main module is:
@@ -59,7 +59,8 @@ By convention module names should be lowercase or, if necessary, camelCase.
 Modules are closed scopes for  `def`  declarations, therefore it is not possible to use implicitly a `def` from other library modules \(from now on _libraries_ for brevity\).  
 To do this it is necessary to introduce `using` declarations.  
 A `using` declaration allows using a `def` defined in another module.  
-The syntax for a `using` declaration  is the following:
+  
+The syntax for a `using` declaration is the following:
 
 ```
 using [module].[def];
@@ -71,13 +72,24 @@ To avoid conflicts when using `def`s with the same name but defined in different
 using [module].[def] as [alias];
 ```
 
+Aliases should always follow `def` naming conventions.  
+  
 To use all the `def`s defined in a specific module, it is possible to adopt the `*` shorthand:
 
 ```
 using [module].*;
 ```
 
+## Main
 
+The `main` declaration is the starting point of the application.  
+It must be in a main module (i.e. not in a library module) and must be unique.  
+In a main module there must be one and only one `main` declaration.  
+The syntax for a `main` declaration is the following:
 
-
+```
+main {
+    [statements]
+}
+```
 
