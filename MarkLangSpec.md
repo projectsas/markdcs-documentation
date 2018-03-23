@@ -1,5 +1,7 @@
 # MarkLang Specification
 
+MarkLang is a very strict language, thus it is very important to know the rules.
+
 ## Files
 
 The standard and only MarkLang file extension is  `.mkl`  
@@ -10,7 +12,7 @@ The standard structure of a MarkLang file is:
 
 [using declarations]
 
-[main declaration] (only in main modules)
+[main declaration (only in main modules)]
 
 [def declarations]
 ```
