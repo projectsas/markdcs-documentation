@@ -90,6 +90,7 @@ The syntax for a `main` declaration is the following:
 ```
 main {
     [statements]
+    ...
 }
 ```
 
