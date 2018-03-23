@@ -65,9 +65,19 @@ The syntax for a `using` declaration  is the following:
 using [module].[def];
 ```
 
-To avoid conflicts when using `def`s with the same name but declared in different modules, it is mandatory to use aliases with the following syntax:
+To avoid conflicts when using `def`s with the same name but defined in different modules, it is mandatory to use aliases with the following syntax:
 
 ```
 using [module].[def] as [alias];
 ```
+
+To use all the `def`s defined in a specific module, it is possible to adopt the `*` shorthand:
+
+```
+using [module].*;
+```
+
+
+
+
 
