@@ -98,5 +98,9 @@ main {
 ```
 
 A `main` can only contain these kinds of statements:
+
 - Components
 - Links
+
+## Def
+
