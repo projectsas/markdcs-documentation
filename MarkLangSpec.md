@@ -82,6 +82,8 @@ To use all the `def`s defined in a specific module, it is possible to adopt the 
 using [module].*;
 ```
 
+All `using` declarations must mandatorily appear after the `module` declaration and before the `main` and `def` declarations.
+
 ## Main
 
 The `main` declaration is the starting point of the application.  
@@ -96,5 +98,5 @@ main {
 ```
 
 A `main` can only contain these kinds of statements:
- - Components
- - Links
+  - Components
+  - Links
