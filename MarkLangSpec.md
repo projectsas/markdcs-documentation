@@ -90,7 +90,9 @@ The syntax for a `main` declaration is the following:
 ```
 main {
     [statements]
-    ...
 }
 ```
 
+A `main` can only contain these kinds of statements:
+ - Components
+ - Links
