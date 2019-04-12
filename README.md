@@ -1,4 +1,4 @@
-# Introduction
+# MarkLang Language
 
 This repository contains the specification document of the MarkLang language.
 

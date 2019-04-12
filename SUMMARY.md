@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [MarkLang Language](README.md)
 * [Files](files.md)
 * [Modules](modules.md)
 * [Main](main.md)
