@@ -12,6 +12,8 @@ The standard structure of a MarkLang file is:
 
 [using declarations]
 
+[station declarations]
+
 [main declaration (only in main modules)]
 
 [def declarations]
@@ -44,17 +46,17 @@ _Library modules_ do not have a _main_ declaration \(mandatorily\). They expose 
 The _module_ declaration must be the first declaration in a `mkl` file.  
 The syntax for the _main module_ is:
 
-```
+```marklang
 module [name];
 ```
 
 The syntax for a _library module_ is:
 
-```
+```marklang
 library module [name];
 ```
 
-By convention _module_ names should be lowercase or, if necessary, camelCase \(lower\).
+By convention _module_ names should be lowercase or, if necessary, lowerCamelCase.
 
 ## Inclusion
 
@@ -64,13 +66,13 @@ A _using_ declaration allows using a _def_ defined in another module.
 
 The syntax for a _using_ declaration is the following:
 
-```
+```marklang
 using [module].[def];
 ```
 
 To avoid conflicts when using _defs_ with the same name but defined in different _modules_, it is mandatory to use _aliases_ with the following syntax:
 
-```
+```marklang
 using [module].[def] as [alias];
 ```
 
@@ -85,7 +87,7 @@ It must be in a _main module_ \(i.e. not in a _library module_\) and must be uni
 In a _main module_ there must be one and only one _main_ declaration.  
 The syntax for a _main_ declaration is the following:
 
-```
+```marklang
 main {
     [statements]
 }
@@ -99,6 +101,22 @@ A _main_ can only contain these kinds of _statements_:
 ## Def
 
 _Def_ is the basic block of a MarkDCS program.  
-It has a name that uniquely identifies it in its _module_. By convention, it should be in CamelCase \(upper\).  
+It has a name that uniquely identifies it in its _module_. By convention, it should be in UpperCamelCase.  
 It is similar to a class in an object oriented language: it can be extended from other _defs_ and it can be instantiated into a _component_.
+
+The most simple syntax for a _def_ declaration is the following:
+
+```marklang
+def [name];
+```
+
+The full syntax for a _def_ declaration is the following:
+
+```marklang
+[modifiers] def [name]([parameters]) : [super-def]([arguments]) {
+    [statements]
+}
+```
+
+
 
