@@ -1,9 +1,9 @@
 # Files
 
-The standard and only MarkLang file extension is  `.mkl`  
+The standard and only MarkLang file extension is `.mkl`  
 The standard structure of a MarkLang file is:
 
-```
+```text
 [module declaration]
 
 [using declarations]

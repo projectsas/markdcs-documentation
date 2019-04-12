@@ -6,14 +6,15 @@ It is similar to a class in an object oriented language: it can be extended from
 
 The most simple syntax for a _def_ declaration is the following:
 
-```marklang
+```text
 def [name];
 ```
 
 The full syntax for a _def_ declaration is the following:
 
-```marklang
+```text
 [modifiers] def [name]([parameters]) : [super-def]([arguments]) {
     [statements]
 }
 ```
+

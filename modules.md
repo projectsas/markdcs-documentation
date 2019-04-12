@@ -12,8 +12,7 @@ There are two kinds of _modules_:
 ## Main module
 
 The _main module_ contains the _main_ declaration \(actually it must contain it\) and is the starting point of the compilation.  
-In a compilation unit there may be just one _main module_, but it is not mandatory.
-However just one _main module_ will be taken into consideration, the others will be ignored. In fact in the compilation configuration file it is mandatory to specify the _main module_ name, to avoid ambiguities.  
+In a compilation unit there may be just one _main module_, but it is not mandatory. However just one _main module_ will be taken into consideration, the others will be ignored. In fact in the compilation configuration file it is mandatory to specify the _main module_ name, to avoid ambiguities.  
 A _main module_ does not expose its _def_ declarations, as it must not be used by other _modules_.
 
 ## Library module
@@ -25,13 +24,13 @@ _Library modules_ do not have a _main_ declaration \(mandatorily\). They expose 
 The _module_ declaration must be the first declaration in a `mkl` file.  
 The syntax for the _main module_ is:
 
-```marklang
+```text
 module [name];
 ```
 
 The syntax for a _library module_ is:
 
-```marklang
+```text
 library module [name];
 ```
 
@@ -45,13 +44,13 @@ A _using_ declaration allows using a _def_ defined in another module.
 
 The syntax for a _using_ declaration is the following:
 
-```marklang
+```text
 using [module].[def];
 ```
 
 To avoid conflicts when using _defs_ with the same name but defined in different _modules_, it is mandatory to use _aliases_ with the following syntax:
 
-```marklang
+```text
 using [module].[def] as [alias];
 ```
 
