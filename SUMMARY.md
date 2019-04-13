@@ -1,8 +1,12 @@
 # Table of contents
 
-* [MarkLang Language](README.md)
-* [Files](files.md)
-* [Modules](modules.md)
-* [Main](main.md)
-* [Def](def.md)
+* [MarkDCS Documentation](README.md)
+
+## MarkLang
+
+* [MarkLang Language](marklang/marklang-language.md)
+* [Files](marklang/files.md)
+* [Modules](marklang/modules.md)
+* [Main](marklang/main.md)
+* [Def](marklang/def.md)
 
