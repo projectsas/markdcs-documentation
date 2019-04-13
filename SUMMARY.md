@@ -2,6 +2,10 @@
 
 * [MarkDCS Documentation](README.md)
 
+## MarkDCS IntelliJ Plugin
+
+* [MarkDCS IntelliJ Plugin](markdcs-intellij-plugin/markdcs-intellij-plugin.md)
+
 ## MarkLang
 
 * [MarkLang Language](marklang/marklang-language.md)
