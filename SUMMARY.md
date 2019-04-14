@@ -9,7 +9,7 @@
   * [MarkDCS SDK](markdcs-intellij-plugin/markdcs-intellij-plugin/markdcs-sdk.md)
   * [MarkDCS Project](markdcs-intellij-plugin/markdcs-intellij-plugin/markdcs-project.md)
 
-## MarkLang
+## MarkLang Language
 
 * [MarkLang Language](marklang/marklang-language/README.md)
   * [Files](marklang/marklang-language/files.md)
