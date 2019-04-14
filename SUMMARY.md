@@ -8,9 +8,9 @@
 
 ## MarkLang
 
-* [MarkLang Language](marklang/marklang-language.md)
-* [Files](marklang/files.md)
-* [Modules](marklang/modules.md)
-* [Main](marklang/main.md)
-* [Def](marklang/def.md)
+* [MarkLang Language](marklang/marklang-language/README.md)
+  * [Files](marklang/marklang-language/files.md)
+  * [Modules](marklang/marklang-language/modules.md)
+  * [Main](marklang/marklang-language/main.md)
+  * [Def](marklang/marklang-language/def.md)
 
