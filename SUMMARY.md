@@ -6,8 +6,12 @@
 
 * [MarkDCS IntelliJ Plugin](markdcs-intellij-plugin/markdcs-intellij-plugin/README.md)
   * [Installation](markdcs-intellij-plugin/markdcs-intellij-plugin/installation.md)
-  * [MarkDCS SDK](markdcs-intellij-plugin/markdcs-intellij-plugin/markdcs-sdk.md)
+  * [MarkDCS IntelliJ SDK](markdcs-intellij-plugin/markdcs-intellij-plugin/markdcs-sdk.md)
   * [MarkDCS Project](markdcs-intellij-plugin/markdcs-intellij-plugin/markdcs-project.md)
+
+## MarkDCS SDK
+
+* [MarkDCS SDK](markdcs-sdk/markdcs-sdk.md)
 
 ## MarkLang Language
 
