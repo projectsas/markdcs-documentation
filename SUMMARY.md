@@ -20,5 +20,5 @@
   * [Modules](marklang/marklang-language/modules.md)
   * [Main](marklang/marklang-language/main.md)
   * [Def](marklang/marklang-language/def.md)
-* [App Sample](marklang/app-sample.md)
+* [MarkLang App Samples](marklang/app-sample.md)
 

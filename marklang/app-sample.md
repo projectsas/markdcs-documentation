@@ -1,4 +1,4 @@
-# App Sample
+# MarkLang App Samples
 
 ```text
 module app;
