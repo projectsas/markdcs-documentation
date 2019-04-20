@@ -34,11 +34,11 @@ The syntax for a _library module_ is:
 library module [name];
 ```
 
-By convention _module_ names should be lowercase or, if necessary, lowerCamelCase.
+By convention _module_ names may be lowercase or, if necessary, lowerCamelCase.
 
 ## Inclusion
 
-_Modules_ are closed scopes for _def_ declarations, therefore it is not possible to use implicitly a _def_ from other _library modules_ \(from now on _libraries_ for brevity\).  
+_Modules_ are closed scopes for _def_ declarations, therefore it is not possible to use implicitly a _def_ from other _library modules_.  
 To do this it is necessary to introduce _using_ declarations.  
 A _using_ declaration allows using a _def_ defined in another module.
 
