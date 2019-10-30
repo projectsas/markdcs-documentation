@@ -1,6 +1,6 @@
 # MarkDCS SDK
 
-MarkDCS SDK is a key component of the MarkDCS system. It is a collection of utilities and code used by the MarkDCS IntelliJ Plugin.
+MarkDCS SDK is a key component of the MarkDCS development system. It is a collection of utilities and code needed to build MarkDCS applications.
 
 You can find the latest version here:
 

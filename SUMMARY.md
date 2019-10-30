@@ -2,14 +2,14 @@
 
 * [MarkDCS Documentation](README.md)
 
+## MarkDCS SDK
+
+* [MarkDCS SDK](markdcs-sdk/markdcs-sdk.md)
+
 ## MarkDCS IntelliJ Plugin
 
 * [Plugin Installation](markdcs-intellij-plugin/installation.md)
 * [MarkDCS Project](markdcs-intellij-plugin/markdcs-project.md)
-
-## MarkDCS SDK
-
-* [MarkDCS SDK](markdcs-sdk/markdcs-sdk.md)
 
 ## MarkLang Language <a id="marklang"></a>
 
