@@ -23,7 +23,7 @@ A _def_ may have the following modifiers:
 * _final_ : makes the _def_ not extensible, i.e. it cannot be used as _super-def_ for another _def_
 * _base_ : makes the _def_ refer to an _element_ implemented in native code, either in the MarkDCS runtime or in a custom extension library. A _base def_ is also intrinsically _final_, thus the _final_ modifier is not needed.
 
-The parameters of a _def_ are a comma-separated list of type-ID couples, with optional default value separated by "=", for example:
+The parameters of a _def_ are a comma-separated list of type-ID pairs, with optional default value following "=", for example:
 
 ```text
 def Logger(string format, string path = "stdout") 
