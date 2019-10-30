@@ -1,4 +1,10 @@
-# Installation
+# Plugin Installation
+
+MarkDCS IntelliJ Plugin allows to edit and compile MarkDCS applications using Jetbrains' IntelliJ IDEA IDE.
+
+{% hint style="info" %}
+Before starting using the MarkDCS plugin, it is recommended that you familiarize a bit with IntelliJ IDEA
+{% endhint %}
 
 1. If you don't have it, download and install [IntelliJ IDEA](https://www.jetbrains.com/idea/), both Community and Ultimate versions work, the choice is up to you.
 2. Start IntelliJ IDEA.
