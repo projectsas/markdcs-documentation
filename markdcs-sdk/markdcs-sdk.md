@@ -10,5 +10,3 @@ Just download the file and unzip it in a handy directory.
 
 Now you can proceed to configure it in IntelliJ.
 
-{% page-ref page="../markdcs-intellij-plugin/markdcs-intellij-plugin/markdcs-sdk.md" %}
-
