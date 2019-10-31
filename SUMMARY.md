@@ -17,6 +17,7 @@
   * [Files](marklang/marklang-language/files.md)
   * [Modules](marklang/marklang-language/modules.md)
   * [Main](marklang/marklang-language/main.md)
-  * [Def](marklang/marklang-language/def.md)
+  * [Def](marklang/marklang-language/def/README.md)
+    * [Component](marklang/marklang-language/def/component.md)
 * [MarkLang App Samples](marklang/app-sample.md)
 
