@@ -1,5 +1,19 @@
 # MarkDCS SDK
 
+
+
+Unix:
+
+```text
+sudo bash <(wget -qO- "https://www.projectsas.it/markdcs/install/install.sh")
+```
+
+Windows:
+
+```text
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://www.projectsas.it/markdcs/install/install.ps1'))
+```
+
 MarkDCS SDK is a key component of the MarkDCS development system. It is a collection of utilities and code needed to build MarkDCS applications.
 
 You can find the latest version here:
