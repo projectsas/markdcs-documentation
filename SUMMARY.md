@@ -9,7 +9,7 @@
 ## MarkDCS IntelliJ Plugin
 
 * [IntelliJ Plugin Installation](markdcs-intellij-plugin/installation.md)
-* [MarkDCS Project](markdcs-intellij-plugin/markdcs-project.md)
+* [IntelliJ MarkDCS Project](markdcs-intellij-plugin/markdcs-project.md)
 
 ## MarkLang Language <a id="marklang"></a>
 

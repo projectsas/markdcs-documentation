@@ -1,4 +1,4 @@
-# MarkDCS Project
+# IntelliJ MarkDCS Project
 
 ## Creating a project
 

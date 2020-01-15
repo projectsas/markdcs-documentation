@@ -1,4 +1,4 @@
-# IntelliJ Plugin Installation
+# Plugin Installation
 
 MarkDCS IntelliJ Plugin allows to edit and compile MarkDCS applications using Jetbrains' IntelliJ IDEA IDE.
 
