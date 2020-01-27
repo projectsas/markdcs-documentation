@@ -19,3 +19,5 @@ The full syntax for a Component declaration is the following:
 
 _arguments_ are a comma-separated list of expressions, each yielding a value of type compatible with the corresponding parameter in the _def_ referred to by _type_.
 
+If the referred _def_ has no parameters, the simple syntax above applies.
+
