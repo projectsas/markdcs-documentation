@@ -6,6 +6,7 @@ On **Unix** systems open a shell and execute the following code:
 
 ```text
 wget "https://www.projectsas.it/markdcs/install/install.sh"
+chmod +x ./install.sh
 sudo ./install.sh
 ```
 
