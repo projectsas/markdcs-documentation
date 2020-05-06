@@ -19,5 +19,6 @@
   * [Main](marklang/marklang-language/main.md)
   * [Def](marklang/marklang-language/def/README.md)
     * [Component](marklang/marklang-language/def/component.md)
+    * [Inputs and Outputs](marklang/marklang-language/def/inputs-and-outputs.md)
 * [MarkLang App Samples](marklang/app-sample.md)
 
