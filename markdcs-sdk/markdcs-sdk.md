@@ -10,7 +10,7 @@ chmod +x ./install.sh
 sudo ./install.sh
 ```
 
-On **Windows** systems, open a **Powershell** with the **Run as administrator** option:
+On **Windows** systems, open a **Powershell** and execute the following code:
 
 ```text
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://www.projectsas.it/markdcs/install/install.ps1'))
